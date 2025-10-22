@@ -21,7 +21,7 @@ function App() {
               <video src="/videos/hero-v.mp4" autoPlay controls loop ></video>
             </div>
             <div className="entr-tv-image">
-              <img className="w-[200px] mt-4 mb-8" src="/imgs/entr-tv.svg" alt="" />
+              <img className="w-[150px] mt-4 mb-8" src="/imgs/entr-tv.svg" alt="" />
             </div>
             <div className="entr-tv-info flex justify-between items-center gap-2">
               <div className="text">
@@ -90,29 +90,31 @@ function App() {
           gap-x-12">
           <div className="post flex justify-between gap-4">
             <a className="font-bold text-sm sm:text-md" href="">When Your Industry Is Losing Steam, Pivoting Is the Wrong Move. Do This Instead.</a>
-            <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/public/imgs/post-1.webp" alt="" />
+            <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/imgs/post-1.webp" alt="" />
           </div>
           <div className="post flex justify-between gap-4">
             <a className="font-bold text-sm sm:text-md" href="">OpenAI Is Paying Ex-Investment Bankers $150 an Hour to Train Its AI</a>
-            <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/public/imgs/post-2.webp" alt="" />
+            <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/imgs/post-2.webp" alt="" />
           </div>
           <div className="post flex justify-between gap-4">
             <a className="font-bold text-sm sm:text-md" href="">Airbnb Is a Social Network Now</a>
-            <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/public/imgs/post-3.webp" alt="" />
+            <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/imgs/post-3.webp" alt="" />
           </div>
           <div className="post flex justify-between gap-4">
             <a className="font-bold text-sm sm:text-md" href="">3 Things Business Owners Should Know About the New Overtime Tax Deduction</a>
-            <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/public/imgs/post-4.webp" alt="" />
+            <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/imgs/post-4.webp" alt="" />
           </div>
           <div className="post flex justify-between gap-4">
             <a className="font-bold text-sm sm:text-md" href="">Is Art an Asset Class? Here’s What You Need to Know Before You Buy</a>
-            <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/public/imgs/post-5.webp" alt="" />
+            <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/imgs/post-5.webp" alt="" />
           </div>
           <div className="post flex justify-between gap-4">
             <a className="font-bold text-sm sm:text-md" href="">Their Restaurant Sign Is So Famous It Has 1 Million Followers. Here’s How They Turned a Viral Hit Into a Business.</a>
-            <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/public/imgs/post-6.webp" alt="" />
+            <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/imgs/post-6.webp" alt="" />
           </div>
         </section>
+
+
       </main>
     </>
   )
