@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
 
 export default function Header () {
     const [isMobile , setIsMobile] = useState(false)
@@ -14,9 +15,9 @@ export default function Header () {
     
     return (
         <header className="bg-white">
-            <div className="header-container py-3 px-[1rem] sm:px-[2rem] flex justify-between items-center relative ">
+            <div className="header-container max-w-7xl mx-auto py-3 px-[1rem] sm:px-[2rem] flex justify-between items-center relative ">
                 <div className="left-content ">
-                    <a href="#" className="logo tracking-tight text-xl md:text-3xl font-bold font-[Playfair_Display] ">Entrepreneur</a>
+                    <Link to="/" className="logo tracking-tight text-xl md:text-3xl font-bold font-[Playfair_Display] ">Entrepreneur</Link>
                     <nav>
                         <ul className={ "nav-linkes hidden md:flex gap-5 mt-2 text-sm" }>
                             <li>Building a Business</li>

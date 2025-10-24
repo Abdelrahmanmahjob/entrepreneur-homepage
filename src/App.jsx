@@ -3,6 +3,7 @@ import Footer from "./components/Footer"
 
 import { MdArrowCircleRight } from "react-icons/md";
 import { FaCircleArrowDown } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <main>
         <section className="trending-tags-btns max-w-7xl px-[1rem] sm:px-[2rem] mt-6 flex gap-3 flex-wrap justify-center">
           <a className="bg-black hover:bg-[#fff7ed] hover:text-black border-2 py-[8px] px-[25px] font-bold rounded-3xl text-white cursor-pointer">Success Stories</a>
-          <a className="bg-black hover:bg-[#fff7ed] hover:text-black border-2 py-[8px] px-[25px] font-bold rounded-3xl text-white cursor-pointer">Business Ideas</a>
+          <Link to="/business-ideas" className="bg-black hover:bg-[#fff7ed] hover:text-black border-2 py-[8px] px-[25px] font-bold rounded-3xl text-white cursor-pointer">Business Ideas</Link>
           <a className="bg-black hover:bg-[#fff7ed] hover:text-black border-2 py-[8px] px-[25px] font-bold rounded-3xl text-white cursor-pointer">Franchising 101</a>
           <a className="bg-black hover:bg-[#fff7ed] hover:text-black border-2 py-[8px] px-[25px] font-bold rounded-3xl text-white cursor-pointer">Mom & Pop</a>
         </section>
@@ -82,15 +83,7 @@ function App() {
           </div>
         </section>
 
-        <section className="news-post px-[1rem] sm:px-[2rem] my-[3rem] max-w-7xl 
-          mx-auto 
-          grid 
-          grid-cols-1 
-          md:grid-cols-2 
-          lg:grid-cols-3 
-          gap-y-8 
-          gap-x-12"
-        >
+        <section className="news-post px-[1rem] sm:px-[2rem] my-[3rem] max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-12">
           <div className="post flex justify-between gap-4">
             <a className="font-bold text-sm sm:text-md" href="">When Your Industry Is Losing Steam, Pivoting Is the Wrong Move. Do This Instead.</a>
             <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/imgs/post-1.webp" alt="" />
@@ -100,7 +93,7 @@ function App() {
             <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/imgs/post-2.webp" alt="" />
           </div>
           <div className="post flex justify-between gap-4">
-            <a className="font-bold text-sm sm:text-md" href="">Airbnb Is a Social Network Now</a>
+            <Link to={"/post-details"} className="font-bold text-sm sm:text-md">Airbnb Is a Social Network Now</Link>
             <img className="w-[100px] h-[100px] rounded-md shadow-lg" src="/imgs/post-3.webp" alt="" />
           </div>
           <div className="post flex justify-between gap-4">
